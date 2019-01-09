@@ -5,3 +5,8 @@
 .list-group .list-group-item > h2 {
   font-size: var(--size-title);
 }
+
+.list-group .list-group-item > .preco {
+  font-size: var(--size-normal);
+  color: var(--color-gray-gray);
+}

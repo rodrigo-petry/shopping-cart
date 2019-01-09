@@ -1,0 +1,50 @@
+.pedido-info {
+  border-top: var(--border) solid var(--color-smooth-gray);
+}
+
+.pedido-info h6 {
+  font-weight: bold;
+  color: var(--color-dark-gray);
+}
+
+.pedido-info h6 > .valor-subtotal {
+  margin-left: 62%;
+  font-weight: normal;
+}
+
+.pedido-info h6 > .taxa-entrega {
+  margin-left: 47%;
+  font-weight: normal;
+}
+
+.pedido-info h5 {
+  font-weight: bold;
+  color: var(--color-black);
+}
+
+.pedido-info h5 > .valor-total {
+  margin-left: 62%;
+}
+
+.pedido-info .btn-confirmar {
+  background-color: var(--color-gray);
+  color: var(--color-white) !important;
+  border-radius: 0;
+  padding: var(--spacing-smallest) var(--spacing-normal);
+  margin-top: var(--spacing-more-normal);
+  margin-left: 57%;
+  border: var(--border) solid var(--color-none);
+  width: 45%;
+
+  transition: all 200ms linear;
+}
+
+.pedido-info .btn-confirmar > i {
+  margin-left: var(--spacing-minimal);
+}
+
+.pedido-info .btn-confirmar:hover {
+  background-color: var(--color-none);
+  border-color: var(--color-gray);
+  color: var(--color-gray) !important;
+}
