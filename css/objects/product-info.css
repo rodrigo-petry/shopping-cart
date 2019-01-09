@@ -34,3 +34,22 @@
 .produto-info h4 > .adicionar i {
   color:var(--color-dark-gray);
 }
+
+/* Media Queries para Mobile */
+@media (max-width: 768px) {
+  .produto-info h4 > .quantidade {
+    display: none;
+  }
+
+  .produto-info h4 > .remover i {
+    display: none;
+  }
+  
+  .produto-info h4 > .adicionar i {
+    display: none;
+  }
+
+  .produto-info h4 > .preco {
+    display: none;
+  }
+}

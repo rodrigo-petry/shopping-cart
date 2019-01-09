@@ -13,7 +13,7 @@
 }
 
 .pedido-info h6 > .taxa-entrega {
-  margin-left: 47%;
+  margin-left: 45.8%;
   font-weight: normal;
 }
 
@@ -47,4 +47,20 @@
   background-color: var(--color-none);
   border-color: var(--color-red);
   color: var(--color-red) !important;
+}
+
+/* Media Queries para Mobile */
+@media (max-width: 768px) {
+  .pedido-info h6 > .valor-subtotal {
+    margin-left: 54%;
+    font-weight: normal;
+  }
+
+  .pedido-info h6 > .taxa-entrega {
+    margin-left: 34.5%;
+  }
+
+  .pedido-info h5 > .valor-total {
+    margin-left: 54%;
+  }
 }

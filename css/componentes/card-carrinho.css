@@ -9,3 +9,10 @@
   padding: var(--spacing-small) 0;
   font-weight: bold;
 }
+
+/* Media Queries para Mobile */
+@media (max-width: 768px) {
+  .card-carrinho {
+    margin-bottom: var(--spacing-big);
+  }
+}
