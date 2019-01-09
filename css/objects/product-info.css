@@ -1,0 +1,36 @@
+.produto-info h4 {
+  padding: var(--spacing-small);
+  font-size: var(--size-normal);
+}
+
+.produto-info h4 > .titulo-produto {
+  width: 185px;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  direction: ltr;
+  margin-right: var(--spacing-smallest);
+  color: var(--color-black);
+}
+
+.produto-info h4 > .preco {
+  margin-right: var(--spacing-smallest);
+  color: var(--color-dark-gray);
+}
+
+.produto-info h4 > .quantidade {
+  margin: 0 var(--spacing-minimal);
+}
+
+.produto-info h4 > .quantidade {
+  color: var(--color-dark-gray);
+}
+
+.produto-info h4 > .remover i {
+  color: var(--color-red);
+}
+
+.produto-info h4 > .adicionar i {
+  color:var(--color-dark-gray);
+}

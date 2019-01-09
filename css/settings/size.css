@@ -1,11 +1,16 @@
 :root {
-  --height: 75px;
+  --height: 90px;
   --border: 1px;
 
   --size-title: 25px;
+  --size-normal: 20px;
 
   --spacing-big: 100px;
+  --spacing-biggest: 70px;
   --spacing-normal: 25px;
   --spacing-small: 20px;
+  --spacing-smallest: 10px;
   --spacing-minimal: 5px;
+
+  --header-height: 65px;
 }

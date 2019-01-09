@@ -3,6 +3,7 @@
   color: var(--color-white);
   border: var(--border) solid var(--color-none);
   margin-top: var(--spacing-small);
+  padding: var(--spacing-smallest) var(--spacing-small);
 
   transition: all 200ms linear;
 }

@@ -7,6 +7,8 @@
     <!-- Objects -->
     <link rel="stylesheet" href="css/objects/add-to-cart.css">
     <link rel="stylesheet" href="css/objects/item-text.css">
+    <link rel="stylesheet" href="css/objects/cart-empty.css">
+    <link rel="stylesheet" href="css/objects/product-info.css">
     <!-- Components -->
     <link rel="stylesheet" href="css/componentes/navbar.css">
     <link rel="stylesheet" href="css/componentes/card-produto.css">
@@ -42,7 +44,7 @@
               <!-- Lista de produtos -->
               <ul class="list-group list-group-flush">
                 <li class="list-group-item">
-                  <h2>Título do Produto</h2>
+                  <h2>Título do Produto #1</h2>
                   <p>Descrição falando detalhadamente sobre o produto.</p>
                   <a href="#" class="btn btn-add-to-cart"><i class="fas fa-shopping-cart"></i> Adicionar</a>
                 </li>
@@ -56,6 +58,42 @@
                 Seu Carrinho
               </div>
               <!-- Itens dentro do Carrinho -->
+
+              <!-- O que deverá ser exibido caso o carrinho estiver vazio
+              <div class="card-body cart-empty">
+                <img src="img/empty.png" alt="Shopping Cart Empty">
+                <h3>Seu carrinho está vazio :(</h3>
+                <p>Adicione um produto ao lado para realizar a compra.</p>
+              </div>
+              -->
+
+              <!-- O que irá aparecer se tiver produto adicionado -->
+              <div class="card-body">
+                <div class="produto-info">
+                  <h4>
+                    <span class="titulo-produto">Título do Produto #1</span> 
+                    <span class="preco">R$ 38.00</span>
+                    <span class="remover"><a href=""><i class="fas fa-minus"></i></a></span>
+                    <span class="quantidade">1</span>
+                    <span class="adicionar"><a href=""><i class="fas fa-plus"></i></a></span>
+                  </h4>
+                </div>
+
+                <div class="pedido-info">
+                  <ul class="list-group list-group-flush">
+                    <!-- Subtotal -->
+                    <li class="list-group-item">
+                      <h6>Subtotal <span class="valor-subtotal">R$ 38.00</span></h6>
+                      <h6>Taxa de Entrega <span class="valor-subtotal">R$ 10.00</span></h6>
+                    </li>
+                    <!-- Total -->
+                    <li class="list-group-item">
+                      <h5>Total <span class="valor-subtotal">R$ 48.00</span></h5>
+                      <a href="#"></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>

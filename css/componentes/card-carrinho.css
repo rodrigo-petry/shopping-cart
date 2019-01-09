@@ -1,3 +1,10 @@
 .card-carrinho {
   margin-top: var(--spacing-big);
 }
+
+.card-carrinho > .card-header {
+  background-color: var(--color-red);
+  color: var(--color-white);
+  text-align: center;
+  padding: var(--spacing-small) 0;
+}

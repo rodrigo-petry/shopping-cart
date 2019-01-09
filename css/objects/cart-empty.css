@@ -1,0 +1,13 @@
+.card-carrinho .cart-empty {
+  text-align: center;
+  padding-bottom: var(--spacing-biggest);
+}
+
+.card-carrinho .cart-empty > h3 {
+  font-size: var(--size-title);
+}
+
+.card-carrinho .cart-empty p {
+  color: var(--color-gray);
+  padding: var(--spacing-minimal) var(--spacing-normal);
+}
