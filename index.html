@@ -3,16 +3,24 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
-
     <title>Carrinho de Compras com JavaScript</title>
-
+    <!-- Objects -->
+    <link rel="stylesheet" href="css/objects/add-to-cart.css">
+    <link rel="stylesheet" href="css/objects/item-text.css">
+    <!-- Components -->
     <link rel="stylesheet" href="css/componentes/navbar.css">
-
+    <link rel="stylesheet" href="css/componentes/card-produto.css">
+    <link rel="stylesheet" href="css/componentes/card-carrinho.css">
+    <link rel="stylesheet" href="css/componentes/menu.css">
+    <!-- Settings -->
     <link rel="stylesheet" href="css/settings/color.css">
     <link rel="stylesheet" href="css/settings/size.css">
-
+    <!-- Generic -->
+    <link rel="stylesheet" href="css/generic/reset.css">
+    <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
-
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
   </head>
 
   <body>
@@ -21,6 +29,38 @@
         <a href="#" class="navbar-brand">Carrinho de Compras</a>
       </div>
     </nav>
+    <!-- Menu contendo o carrinho de compras e os itens -->
+    <div class="menu">
+      <div class="container">
+        <div class="row">
+          <!-- Produtos cadastrados pela loja -->
+          <div class="col-sm-12 col-md-7 item-produto">
+            <div class="card card-produto">
+              <div class="card-header">
+                Produtos da Loja
+              </div>
+              <!-- Lista de produtos -->
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <h2>Título do Produto</h2>
+                  <p>Descrição falando detalhadamente sobre o produto.</p>
+                  <a href="#" class="btn btn-add-to-cart"><i class="fas fa-shopping-cart"></i> Adicionar</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Carrinho de compras -->
+          <div class="col-sm-12 col-md-5">
+            <div class="card card-carrinho">
+              <div class="card-header">
+                Seu Carrinho
+              </div>
+              <!-- Itens dentro do Carrinho -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>

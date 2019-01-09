@@ -1,0 +1,8 @@
+.card-produto {
+  margin-top: var(--spacing-big);
+}
+
+.card-produto > .card-header {
+  background-color: var(--color-black);
+  color: var(--color-white);
+}

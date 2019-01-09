@@ -1,0 +1,7 @@
+.list-group > .list-group-item {
+  padding: var(--spacing-normal) var(--spacing-small);
+}
+
+.list-group .list-group-item > h2 {
+  font-size: var(--size-title);
+}

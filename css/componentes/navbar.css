@@ -6,7 +6,3 @@
 .navbar .navbar-brand {
   color: var(--color-white);
 }
-
-.navbar .navbar-brand:hover {
-  color: var(--color-red);
-}

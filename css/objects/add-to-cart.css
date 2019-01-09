@@ -1,0 +1,18 @@
+.list-group-item .btn-add-to-cart {
+  background-color: var(--color-red);
+  color: var(--color-white);
+  border: var(--border) solid var(--color-none);
+  margin-top: var(--spacing-small);
+
+  transition: all 200ms linear;
+}
+
+.list-group-item .btn-add-to-cart:hover {
+  background-color: var(--color-none);
+  color: var(--color-red);
+  border-color: var(--color-red);
+}
+
+.btn-add-to-cart > i {
+  margin-right: var(--spacing-minimal);  
+}

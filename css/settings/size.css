@@ -1,3 +1,11 @@
 :root {
   --height: 75px;
+  --border: 1px;
+
+  --size-title: 25px;
+
+  --spacing-big: 100px;
+  --spacing-normal: 25px;
+  --spacing-small: 20px;
+  --spacing-minimal: 5px;
 }
