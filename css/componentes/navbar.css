@@ -5,4 +5,5 @@
 
 .navbar .navbar-brand {
   color: var(--color-white);
+  margin: 0 auto;
 }
