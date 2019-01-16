@@ -38,18 +38,13 @@
         <div class="row">
           <!-- Produtos cadastrados pela loja -->
           <div class="col-sm-12 col-md-7 item-produto">
-            <div class="card card-produto">
+            <div class="card card-produto" id="produto">
               <div class="card-header">
                 Produtos da Loja
               </div>
               <!-- Lista de produtos -->
               <ul class="list-group list-group-flush">
-                <li class="list-group-item">
-                  <h2>Título do Produto #1</h2>
-                  <p>Descrição falando detalhadamente sobre o produto.</p>
-                  <p class="preco">R$ 38.00</p>
-                  <a href="#" class="btn btn-add-to-cart"><i class="fas fa-shopping-cart"></i> Adicionar</a>
-                </li>
+                
               </ul>
             </div>
           </div>
@@ -59,17 +54,17 @@
               <div class="card-header">
                 Seu Carrinho
               </div>
+              
               <!-- Itens dentro do Carrinho -->
 
-              <!-- O que deverá ser exibido caso o carrinho estiver vazio 
+              <!-- O que deverá ser exibido caso o carrinho estiver vazio -->
               <div class="card-body cart-empty">
                 <img src="img/empty.png" alt="Shopping Cart Empty">
                 <h3>Seu carrinho está vazio :(</h3>
                 <p>Adicione um produto ao lado para realizar a compra.</p>
               </div>
-              -->
   
-              <!-- O que irá aparecer se tiver produto adicionado -->
+              <!-- O que irá aparecer se tiver produto adicionado 
               <div class="card-body">
                 <div class="produto-info">
                   <h4>
@@ -95,6 +90,7 @@
                   </ul>
                 </div>
               </div>
+              -->
             </div>
           </div>
         </div>
@@ -104,5 +100,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <!-- Components -->
+    <script src="js/components/produto.js"></script>
   </body>
 </html>
